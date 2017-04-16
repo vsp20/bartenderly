@@ -1,0 +1,72 @@
+#container{
+	min-height: 450px;
+	max-height: 500px;
+	min-width: 500px;
+	max-width: 600px;
+	border-style: solid;
+	overflow: scroll;
+
+}
+#backButton{
+	padding: 10px;
+	position:fixed;
+}
+#drinkName{
+	cursor: pointer;
+	text-align: center;
+	color: #191970;
+	font-size:50px;
+}
+.drinkBody{
+	display:flex;
+	width:100%;
+
+}
+#drinkPicture{
+	width:50%;
+}
+#drinkText{
+	// height:100px;
+	// width:;
+	width:50%;
+	text-align: center;
+	padding-left:5px;
+}
+#ingredientTitle{
+	text-align: center;
+	height:10%;
+	cursor: pointer;
+}
+.choiceRow{
+	display:flex;
+}
+.drinkChoice{
+	//padding:20px;
+	// /margin-top:50px;
+	width:33%;
+	padding-top:50px;
+	border: solid black 1px;
+
+
+}
+
+#ingredientMenu{
+	height:300px;
+}
+
+
+.choiceRow{
+	cursor: pointer;
+	height:150px;
+	text-align: center;
+}
+
+
+
+#list{
+	overflow: scroll;
+	padding-left:10px;
+}
+
+
+

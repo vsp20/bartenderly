@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="initialLander.css"/>
+
+		<script src="./js/jquery.min.js"></script>
+    	<script src = "initialLander.js"></script>
+    	<title>Vishal's Personal Website</title>
+<!--     	<title> Vishal's Personal Website<title>
+ -->	</head>
+	<body>
+		<div id=nav-bar>
+			<ul>
+				<li><a href=#home class=aTag><span>Home</span></a></li>
+				<li id=about_nav><a href='#aboutPage' class=aTag><span id=aboutClick>About</span></a></li>
+				<li><a href=#portfolioPage class=aTag><span>Portfolio</span></a></li>
+				<li id=contact_nav_bar><a href=#contactPage class=aTag><span>Contact Me</span></a></li>
+				
+			</ul>
+		</div>
+		<div class=background>
+			<div class=description id=home>
+				<div id=name> Vishal Patel</div>
+				<div class=info>
+					<div id=static> A Modern Day </div>
+					<div id=rotate>Developer.</div>
+				</div>
+			</div>
+			<img src=aboutPic.png>
+			<div class=categories>
+				<div class=category id=about>
+					<a href=#aboutPage class=aTag>
+						<div class=tabBackground id=aboutClick>
+							<div class=title>About</div>
+						</div>
+					</a>
+				</div>
+				<div class=category id=portfolio>
+					<a href=#portfolioPage class=aTag>
+						<div class=tabBackground id=portfolioClick>
+							<div class=title>Portfolio</div>
+						</div>
+					</a>
+				</div>
+				<div class=category id=connect>
+					<a href=#contactPage class=aTag>
+						<div class=tabBackground>
+							<div class=title>Contact Me!</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			
+		</div>
+		<div class=aboutPage id=aboutPage>
+				<div class= tabTitle id=aboutTitle>About</div>
+				<hr width=5% id=aboutLine>
+				<div id=image>
+					<img src=CoverPic.jpg>
+				</div>
+
+				<div id=text>
+					<div class= text id=paragraph1>Hi I'm Vishal! I am a current student at Case Western Reserve University in Cleveland, Ohio pursuing a BS in Computer Science<br> &nbsp;</div>
+					<div class=text id=paragraph2> During weekends or free time, when I'm not coding, you might find me at the gym playing volleyball, in the lounge playing chess, or on the slopes conquering the terrain park<br> &nbsp;</div>
+					
+					<div class=text id=paragraph3>I enjoy creating those bizzare, but asthetically pleasing UI designs and game-changing UX designs, but I also enjoy making those innovative application functionalities in the backend. Ragurdless of where I end up, I am confident in my ability to develop, design, and/or innovatve because of my raw passion for coding.
+					<br> &nbsp;</div>
+
+				</div>
+
+			</div>	
+
+			<div class=portfolioPage id=portfolioPage>
+				<div id=portfolioTitle class=tabTitle>Portfolio</div>
+				<hr width=5% id=portfolioLine>
+				<div class=instructions>Click the apps for more information on my past experiences!</div>
+
+				<div class=appInfoTitle id=modal-close>
+					<div class=appText id=Testive> Internship</div>
+					<div class=appText id=Expedia>Project</div>
+					<div class=appText id=Weather>Project</div>
+					<div class=appText id=Tedx>Event</div>	
+				</div>
+				<div class=apps>	
+					<a href=#testiveApp class=application><img class=app  id=border src=testive.png></a>
+					<a href=#expediaApp class=application><img class=app id=border src=spon.jpeg></a>	
+					<a href=#weatherApp class=application><img class=app  id=border src=weatherApp.png></a>
+					<a href=#tedxApp class=application><img class=app  id=border src=tedx.png></a>
+				</div>
+				<div class=modal id=testiveApp>
+					<div class=modal-container>
+						<a href='#modal-close' class=modal-close>Close</a>
+
+						<h2 class=modal-title> Testive Internship</h2 class=modal-title>
+						<img class=popup src=testive.png>
+						<div class=modal-text>Here I designed, coded, and deployed a fully functioning referral page that sends out customer text messages and emails via Twilio
+						I also created a suite of unit tests for the current Testive Website using selinium, and created a mobile friendly version of the register lander page
+						</div>
+						<div class=modal-link>
+						Link: 
+							<a href="https://github.com/vsp20/SpontaneousTraveling" class=aLink>Video Explanation</a>
+						</div>
+
+					</div>
+
+				</div>
+				
+				<div class=modal id=expediaApp>
+					<div class=modal-container>
+						<a href='#modal-close' class=modal-close>Close</a>
+
+						<h2 class=modal-title> Spontaneous Traveling</h2>
+						<img class=popup src=spon.jpeg>
+						<div class=modal-text>Created Java application which lists the lowest prices for flights from and to input airports using Skyscanner API. Also this application has a Spontaneous mode where you just pick any departure airport and will give you prices for traveling to various locations. 
+						</div>
+						<div class=modal-link>
+						Link: 
+							<a href="https://github.com/vsp20/SpontaneousTraveling" class=aLink>Spontaneous Traveling</a>
+						</div>
+
+
+
+						
+						
+					</div>
+
+				</div>
+				<div class=modal id=weatherApp>
+					<div class=modal-container>
+						<a href='#modal-close' class=modal-close>Close</a>
+						<h2 class=modal-title> Weather App Personal Project</h2>
+						<img class=popup src=weatherApp.png>
+						<div class=modal-text>
+						Created a program in Python that properly accesses the Weather
+						API in JSON and returns the 7-day forecast of the inputted city
+
+						</div>
+						<div class=modal-link>
+						Link: 
+							<a href="https://github.com/vsp20/weatherApp" class=aLink>Weather App</a>
+						</div>
+
+						
+					</div>
+
+				</div>
+				<div class=modal id=tedxApp>
+					<div class=modal-container>
+						<a href='#modal-close' class=modal-close>Close</a>
+						<h2 class=modal-title> TEDxYouth@CCHS Event</h2>
+						<img class=popup src=tedx.png>
+						<div class=modal-text>
+							Managed financial and sponsorship departments as president of the club. 
+							Led team of 35 students to organize TEDx event at high school
+							with mission to help spread ideas and inspire the surrounding community
+
+						</div>
+						<div class=modal-link>
+						Link: 
+							<a href="http://www.tedxyouthcchs.com/ " class=aLink>Event Website</a>
+					</div>
+
+					</div>
+					
+
+				</div>
+				
+				<div class=appInfoText>
+					<div class=appText id=testive>Testive SAT/ACT Prep</div>
+					<div class=appText id=expedia>Spontaneous Traveling</div>
+					<div class=appText id=weather>Weather forecast application </div>
+					<div class=appText id=tedx>TEDxYouth@CCHS</div>	
+				</div>
+				<div id=resumeLink>
+					<a href="#contactPage" class=aTag> Click here for a look at my resume! </a>
+				</div>
+			</div>
+			<div id=contactPage>
+				<h1 id=contactTitle>Get in Touch!</h1>
+				<hr width=5% id='aboutLine'>
+				<div id=introduction>Lets get in touch! I always love meeting new people and expanding my network :D</div>
+				<div id=contactList>
+					<div class= contactButton id=phone><i class="fa fa-phone fa-5x" aria-hidden="true"></i></div>
+					<div class=contactButton id=mail><i class="fa fa-envelope fa-5x" aria-hidden="true"></i></div>
+					<div class=contactButton id=resumeButton><a href="Resume.doc" download><i class="resume_hover fa fa-5x fa-book wow bounceIn text-primary"></i></a></div>
+				</div>
+				<div id=contactWords>
+					<div class=words id=number>978-382-3790</div>
+					<div class=words id=email>vsp20@case.edu</div>
+					<div class=words id=resume-button-text>Resume</div>
+				</div>
+			</div>
+	</body>
+</html>
